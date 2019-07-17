@@ -10,6 +10,8 @@ puts "What type of game would you like to play? Player mode:
 1 - You vs Computer
 2 - You vs a Friend "
 
+player_mode = gets.strip
+
 
 lala = Game.new
 lala.play
