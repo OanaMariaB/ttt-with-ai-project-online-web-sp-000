@@ -35,5 +35,5 @@ if player_mode == "1"
 
  game_with_ai until gets.strip == "n"
 
-lala = Game.new
-lala.play
+#lala = Game.new
+#lala.play
