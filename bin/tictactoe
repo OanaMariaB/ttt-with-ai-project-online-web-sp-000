@@ -26,7 +26,7 @@ if player_mode == "1"
  elsif player_mode == "2"
    Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
  end
-  
+
 
 
 lala = Game.new
