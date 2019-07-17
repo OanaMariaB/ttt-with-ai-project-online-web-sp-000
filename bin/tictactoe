@@ -23,7 +23,7 @@ if player_mode == "1"
 
   elsif player_mode == "0"
     Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
-  end
+
 
   elsif player_mode == "2"
     Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
@@ -31,7 +31,7 @@ if player_mode == "1"
 
   puts "Would like to play again? [y/ n]"
 
- end
+  end
 
  game_with_ai until gets.strip == "n"
 
