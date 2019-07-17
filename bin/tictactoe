@@ -12,6 +12,9 @@ puts "What type of game would you like to play? Player mode:
 
 player_mode = gets.strip
 
+if player_mode == 1
+  puts "Would you like to go fist? [y/ n]"
+
 
 lala = Game.new
 lala.play
