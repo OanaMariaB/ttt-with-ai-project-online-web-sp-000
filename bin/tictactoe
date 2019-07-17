@@ -2,5 +2,8 @@
 
 require_relative '../config/environment'
 
+puts "Welcome to Command Line Tic Tac Toe. Hope you enjoy the game!"
+
+
 lala = Game.new
 lala.play
