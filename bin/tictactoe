@@ -12,13 +12,16 @@ puts "What type of game would you like to play? Player mode:
 
 player_mode = gets.strip
 
-if player_mode == 1
+if player_mode == "1"
   puts "Would you like to go fist? [y/ n]"
   if gets.strip == "y"
       Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
     else   Game.new(Players::Computer.new("X"), Players::Human.new("O"), Board.new).play
     end
 
+  elsif player_mode == "0"
+    Game.new(Players::Computer.new("X"), Players::Computer.new("O"), Board.new).play
+  end
 
 
 lala = Game.new
